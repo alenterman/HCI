@@ -1,0 +1,70 @@
+body{
+	font-family: helvetica;
+	margin: 0;
+}
+
+#headerFoto{
+	width: 100%;
+
+}
+header{
+	position: relative;
+}
+
+h2{
+	position: absolute;
+	bottom: 20px;
+	left: 100px;
+	color: white;
+}
+
+#headerTitel{
+	position: absolute;
+	bottom: 125px;
+	left: 100px;
+	color: white;
+	font-size: 45px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h3, h4{
+	margin-left: 100px;
+}
+
+
+.foto{
+	width: 60%;
+	margin-left: 100px;
+	margin-top: 15px;
+}
+
+
+
+div{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas: "tekst tekst foto";
+}
+
+p{
+	margin-left: 100px;
+	max-width: 700px;
+	grid-area: tekst;
+}
+
+
+img{
+	width: 50%;
+	grid-area: foto;
+	margin-bottom: 15px;
+}
+
+
+a{
+	color: black;
+}
+
+main{
+	margin-bottom: 100px;
+}

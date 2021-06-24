@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Labweeks</title>
+		<link href="styles/labweeks.css" type="text/css" rel="stylesheet"/>
+
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+	</head>
+	<body>
+		<header>
+			<img src="images/circuit.jpg" alt="circuit board" id="headerFoto" />
+			
+				<a href="index.html" id="headerTitel">HCI Technologies</a>
+				<h2 class="headerTekst">Anouk Lenterman <br>CMD 2D</h2>
+			
+
+		</header>
+		<main>
+			<h3>Labweken logboek</h3>
+
+			<h4>Week 1</h4>
+			<p>Dag 1<br>
+				Vandaag hebben we gebrainstormd over ideeen die we eventueel zouden kunnen proberen uit te voeren deze twee weken. We hebben online gezocht naar projecten en inspiratie opgedaan aan de hand van foto's en filmpjes. Snel dachten we bij playful interaction al aan iets met kunst, een soort levend kunstwerk bijvoorbeeld. Zo zijn we gaan nadenken hoe we dit zelf zouden kunnen bouwen. Ik dacht aan een museum installatie die ik heel lang geleden had gezien waarbij je jezelf op een scherm zag wanneer je ervoor ging staan en een computer aan de hand van jouw uitdrukkingen kon lezen wat je stemming was, dat werd dan op het scherm weergegeven. We hebben gezocht naar facerecognition die we zouden kunnen gebruiken wat daarbij past maar dat vonden we erg ingewikkeld en daarom besloten we morgen tutorials proberen te doen die gebruik maakte van arduino.<br> We hebben nu wel een idee gedacht wat ons heel gaaf lijkt, maar we niet zeker weten of dat haalbaar zou zijn, namelijk een scherm met lijst eromheen waar een kunstwerk op wordt getoond, totdat je jouw gezicht in dat kunstwerk ziet verschijnen wanneer je ervoor staat, in de stijl van een schildersdoek.
+			</p>
+			<img src="images/banksy.png" alt="banksy" class="nietHeader" /><br>
+			<img src="images/gogh.png" alt="gogh" class="klein" />
+			<img src="images/image.png" alt="images" id="hoofd" />
+
+			<p><br><br>Dag 2<br>
+				Gisteren hebben we een idee bedacht wat ons leuk lijkt om te doen, maar na overleg met de docenten hebben we besloten het iets aan te passen zodat we wat makkelijker weten waar we moeten beginnen en om he twat haalbaarder te maken. We willen nu het schilderij laten veranderen naar mate iemand dichterbij loopt. We hebben gisteren ook tutorials gevonden die we vandaag hebben uitgeprobeerd. Er staan er een aantal op de website van arduino die de proximity sensor gebruiken, die willen wij nu gebruiken om ons idee een beetje vorm te geven. <br>
+				Met de tutorial die we hebben gedaan maakte we een soort stoplicht, waarbij er geluid harder gaat piepen en de lampjes van groen naar geel naar rood gaan als je dichtbij komt, hiermee leerden we wat beter omgaan met de proximity sensor en wat we er allemaal mee kunnen.
+
+			</p>
+			<img src="images/8juni-1.jpeg" alt="banksy" class="klein" /><br>
+			<video width="270" height="450" controls class="video" muted>
+				<source src="images/8juni-2.MOV.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+			<video width="270" height="450" controls class="video" muted>
+				<source src="images/8juni-3.MOV.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+
+			<p><br><br>Dag 3<br>
+				Vandaag hebben we weer geëxperimenteerd met de proximity sensor van arduino. Met een nieuwe tutorial wilden we zorgen dat twee afbeeldingen over elkaar heen zouden worden geplaatst en dan dar bovenste steeds zou vervagen wanneer je dichtbij komt. Online vonden we op een forum een stukje code van iemand die zoiets wilde bereiken maar dat ook niet helemaal lukte, we hebben geprobeerd om die code aan te passen zodat het zou werken maar dat is niet perfect gelukt, hiervoor gebruikten we dus Arduino en Processing. De foto's deden niks zodra je op play klikte in Processing en niet aan de hand van de sensor. In de helpdesk hebben we geprobeerd dit op te lossen maar dat lukte daar ook niet. <br>We zijn de hele dag bezig geweest met dit experiment en het verste wat we zijn gekomen is ervoor zorgen dat de foto's in elkaar faden wanneer je op play klikt, maar het leek niet helemaal gekoppeld aan de sensor. We wilden dit proberen omdat we dachten een schilderij te kunnen kiezen en die in Photoshop steeds een beetje te bewerken zodat bijvoorbeeld iemand in het portret je steeds meer aankijkt wanneer je er naartoe loopt, we gaan morgen kijken of dat nog steeds een goed plan is of dat we beter naar andere code kunnen kijken.
+
+			</p>
+			<img src="images/honden.png" alt="honden" id="hondenFoto" /><br>
+
+			<p><br><br>Dag 4<br>
+				Het lukt ons niet om de code van gisteren werkend te krijgen, ook niet met hulp van docenten. Gelukkig hebben wij in de tussentijd een YouTube tutorial gevonden die een foto een gaaf effect geeft wat verandert aan de hand van de positie van je muis, we willen deze tutorial proberen na te doen maar dan te koppelen aan de sensor. Eerst hebben we de tutorial gevold en het effect gekoppeld aan de x- en y-waardes van de muis, en daarna zijn we gaan testen hoe we dit aan onze sensorwaardes kunnen koppelen. We zijn hier een tijd mee bezig geweest maar uiteindelijk ervoor kunnen zorgen dat de waardes die de sensor geeft worden gelezen in Processing en aan de hand daarvan het aantal en de grootte van de tiles aan te passen. Het beeld heeft een soort pixel effect, maar dan met ellipses, en op dit moment hebben we gezorgd dat het beeld juist vager wordt wanneer je met je hand naar de sensor gaat, maar wij willen graag dat het beeld juist duidelijk wordt wanneer je dichterbij komt. We gaan morgen kijken naar hoe we dat aanpassen zodat het effect eigenlijk wordt omgedraaid.
+
+			</p>
+			<img src="images/pixelHoofd.png" alt="pixels" id="pixelFoto" /><br>
+			<video width="200" height="420" controls id="pixelsVideo" class="video" muted>
+				<source src="images/pixels.MOV.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+
+			<p><br><br>Dag 5<br>
+				We hebben vanochtend ervoor gezorgd dat het effect wat we gisteren hebben gemaakt zich andersom afspeelt, zodat het beeld dus juist scherper wordt wanneer je dichtbij de sensor komt. Het duurde even voordat dit lukte omdat we in Processing probeerden het effect om te draaien, maar later bedachten we ons dat we ook in Arduino de waardes uit de sonsor andersom naar Processing kunnen opsturen. Toen hebben we in Arduino door middel van mapping de maximale en minimale waardes omgedraaid zodat ze precies andersom waren en zo kregen we het juiste effect.<br>
+				Nu wilden we kijken of we nog verder kunnen gaan, en eventueel alsnog kunnen proberen om iemands gezicht in het beeld te verwerken, dit deden we aan de hand van p5, maar dat ging erg moeizaam. We hebben de hele dag aan p5 gezeten en geprobeert om met een converter onze Processing code om te zetten maar dat werkte niet goed. Daarna wilden we kijken of we het effect aan de camera konden koppelen maar daar kregen we ook veel errors. In de helpdesk was het erg druk en we hebben wel een iets beter begrip gekregen van de code maar we zijn dus niet heel veel opgeschoten, we gaan daarom maandag met hulp van docenten proberen beter te begrijpen hoe p5 werkt.
+
+			</p>
+			<img src="images/11juni.png" alt="code" id="codeFoto" />
+
+
+			<h4><br><br><br>Week 2</h4>
+			<p>Dag 6<br>
+				We zijn vandaag gelukkig een stuk verder gekomen dan vrijdag. Vrijdag lukte het ons totaal niet om op te schieten met p5 en vandaag werkten we op de Haagse en konden we makkelijker om hulp vragen. Het idee wat we wilden uitvoeren was om de Arduino sensor helemaal weg te laten en om aan de hand van face recognition vast te stellen hoe dichtbij iemand is, en om dan het pixel effect over iemands gezicht te doen wanneer je voor het 'kunstwerk' staat. Het is uiteindelijk gelukt om de Processing code in p5 te zetten en de de camera aan het effect te koppelen en aan de hand van face recognition het effect te laten werken. We gaan morgen ervoor zorgen dat het effect goed werkt en veranderd wanneer je dichterbij loopt. We hebben de code het gezicht laten zoeken en dan te zorgen dat het het linker- en rechterpunt van iemands jukbeenderen pakt en de afstand tussen die twee punten te gebruikt om te bepalen hoe dichtbij iemand staat. We willen nu dus zorgen dat het effect veranderd wanneer die afstand groter wordt.
+
+			</p>
+
+			<p><br><br>Dag 7<br>
+				Vanochtend hebben we weer aan de code gewerkt en aan de hand van if statements het aantal tiles en de grootte van de tiles laten veranderen wanneer je naar de camera toeloopt. Daarna zijn we de stad ingegaan op zoek naar een fotolijst. We zijn naar kringloopwinkels gegaan omdat we dachten dat die wel goedkope lijsten zouden hebben. We hebben veel winkels bezocht maar geen een had een bruikbare lijst, later hebben we ook bij de action en hema gekeken maar ook die verkochten eigenlijk lijsten die te klein waren. We willen namelijk het liefst ons beeld projecteren op een doek of lege muur en een lijst daar omheen krijgen zodat je echt het effect krijgt dat het een kunststuk is. We hebben besloten thuis nog te kijken en aan vrienden te vragen naar lijsten maar nergens leken we te kunnen scoren, daarom zoeken we nu online maar dan komt hij waarschijnlijk te laat aan, dus gaan we denken over alternatieven.
+			</p>
+
+			<img src="images/lijst1.jpg" alt="code" class="lijstFoto" />
+			<img src="images/lijst2.jpg" alt="code" class="lijstFoto" />
+
+			<p><br><br>Dag 8<br>
+				Vandaag hebben we ons gefocust op de presentatie van ons project. We hebben Madmapper geïnstalleerd om ervoor te zorgen dat we het juiste deel van het beeld konden projecteren en zodat het precies recht op de witte muur zou komen. We hadden de fotostudio gereserveerd omdat we dachten dat we daar een goed effe achtergrond zouden hebben en makkelijk met het licht konden spelen. We hebben bij de copyshop op A0 papier een lijst geprint en uitgesneden als alternatief voor een echte lijst, zodat we toch nog een soort kunst-effect konden krijgen. daarnaa zijn we gaan spelen met de opzet, de plaatsing van de beamer, de lijst en de laptopcamera, zodat iemand loopruimte had maar alles wel zou werken. We hebben ook beeldmateriaal opgenomen voor ons presentatiefilmpje. We hebben nu nog kleureffecten in de code toegevoegd omdat we het eigenlijk wel een heel leuk idee vonden om de kleuren te laten veranderen als iemand naar het beeld loopt. Daarna bedachten we ons dat het leuk zou zijn om te kijken hoe mensen hierop zouden reageren als ze het voor het eerst zien, dus hebben we het opgebouwd op verschillende plekken; eerst in ons klaslokaal, daarna bij de kantine en later nog op een andere plek in de kantine. Het was heel leuk om te zien hoe mensen reageren op het effect wanneer ze naar de lijst toelopen en niet weten wat er gaat gebeuren en we zijn heel blij met ons eindresultaat. We hebben hier weer filmpjes van gemaakt voor ons presentatiefilmpje.
+
+			</p>
+			<img src="images/16juni-1.jpeg" alt="code" class="laatste" />
+			<img src="images/16juni-2.jpeg" alt="code" class="laatste"/>
+			<img src="images/16juni-3.jpeg" alt="code" class="laatste" />
+			<img src="images/16juni-4.jpeg" alt="code" class="laatste" />
+
+			<p><br><br>Dag 9<br>
+				We hebben deze dag eigenlijk helemaal vrijgepland voor het voorbereiden voor de expo, daar zijn we heel blij mee want dan weten we zeker dat alles op tijd af is en dat we zeker weten dat we alles op orde hebben. We hebben de hele dag gewerkt aan het maken van ons filmpje voor de presntatie en het voorbereiden van de tekst en de PowerPoint. In de video is een beetje ons proces te zien maar voornamelijk de uitwerking en mensen die onze installatie testen en voor het eerst bekijken. Na vandaag zijn we helemaal klaar voor de expo morgen. Hieronder is de link naar ons filmpje!<br><br>
+				<a href="https://www.youtube.com/watch?v=UOOwdFFmYJo">Presentatie filmpje</a>
+
+			</p>
+			<h4 id="reflectie">Reflectie</h4>
+			<p>Wat ik onwijs leuk vond aan deze twee weken was dat ik niet alleen leerde over de technologie maar voor het eerst ook helemaal vanuit jezelf iets moest bedenken om daarmee te maken. Vaak leer je op school over technologie zoals Arduino en Processing of andere code en dan doe je daar de gegeven opdrachten bij en houdt het daarbij op, maar nu moesten we kijken hoe we dat ook echt konden toepassen in iets wat we zelf gaaf vonden om te maken. In het begin vond ik dat erg lastig omdat ik geen idee had wat ik met mijn nieuw kennis over de onderwerpen eigenlijk precies kon, maar doordat je gewoon dingen gaat uitproberen en samen gaat brainstormen kom je echt een stuk verder dan je denkt. Ik had van tevoren niet bedacht dat het mij samen met Jade in twee weken zou lukken om een project te maken zoals het project wat we uiteindelijk in elkaar hebben gezet maar door steeds een stapje verder te gaan zie je dat je met de gelimiteerde kennis die wij hebben al best leuke dingen kan bereiken. Ik ben daarom ook erg blij met ons eindresultaat en heb echt het idee dat ik iets heb geleerd, je moet namelijk niet teveel nadenken over wat wel of niet haalbaar is, maar gewoon uitproberen.</p>
+
+
+		</main>
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+

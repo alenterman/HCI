@@ -1,0 +1,70 @@
+body{
+	font-family: helvetica;
+	margin: 0;
+}
+
+#headerFoto{
+	width: 100%;
+
+}
+header{
+	position: relative;
+}
+
+h2{
+	position: absolute;
+	bottom: 20px;
+	left: 100px;
+	color: white;
+}
+
+#headerTitel{
+	position: absolute;
+	bottom: 125px;
+	left: 100px;
+	color: white;
+	font-size: 45px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h3{
+	margin-left: 100px;
+}
+h4{
+	margin-left: 100px;
+}
+.titel{
+	margin-top: 90px;
+}
+
+
+.foto{
+	width: 40%;
+	margin-left: 100px;
+}
+
+
+p{
+	margin-left: 100px;
+	width: 700px;
+}
+
+
+main{
+	margin-bottom: 100px;
+}
+
+#sketch{
+	margin-left: 20px;
+	width:40%;
+}
+
+#video{
+	margin-left: 100px;
+}
+
+
+
+
+

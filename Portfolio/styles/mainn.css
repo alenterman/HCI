@@ -1,0 +1,104 @@
+body{
+	font-family: helvetica;
+	margin: 0;
+}
+
+#headerFoto{
+	width: 100%;
+
+}
+header{
+	position: relative;
+}
+
+h2{
+	position: absolute;
+	bottom: 20px;
+	left: 100px;
+	color: white;
+}
+h1{
+	position: absolute;
+	bottom: 90px;
+	left: 100px;
+	color: white;
+	font-size: 45px;
+}
+
+
+
+.titel{
+	margin: 15px;
+	margin-left: 100px;
+
+}
+#flex{
+	display: flex;
+	flex-direction: row;
+	padding: auto;
+}
+.knop{
+	background-color: #919191;
+	width: 250px;
+	height: 150px;
+	margin-right: 15px;
+	border-radius: 15px;
+}
+
+#flexWorkshop{
+	display: flex;
+	flex-direction: row;
+	padding: auto;
+}
+
+#flexOverig{
+	display: flex;
+	flex-direction: row;
+	padding: auto;
+}
+
+
+.tekst{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 60px;
+	font-size: 20px;
+	margin-top: 0;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+main{
+	margin-bottom: 100px;
+}
+
+
+
+#todo{
+	line-height: 2;
+	margin-top: 80px;
+	color: red;
+}
+.gedaan{
+	text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
